@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.1bb397c1.css",
+    "main.js": "/my-website/static/js/main.b9962ffc.js",
+    "static/js/787.1ed0c42c.chunk.js": "/my-website/static/js/787.1ed0c42c.chunk.js",
+    "static/media/instagram.png": "/my-website/static/media/instagram.fce37a39c54bb756d04b.png",
+    "static/media/profile_photo.jpg": "/my-website/static/media/profile_photo.92d5c7de22fed4084178.jpg",
+    "static/media/twitter.png": "/my-website/static/media/twitter.cbfb1f67d582fd543f6d.png",
+    "static/media/unsorted.png": "/my-website/static/media/unsorted.c23d324d0531b323fe84.png",
+    "static/media/sorted.png": "/my-website/static/media/sorted.6a6e92462ca05dffc7e0.png",
+    "static/media/sql.svg": "/my-website/static/media/sql.22d48acca8e2359ea2ec19909a70ab77.svg",
+    "static/media/gmail.png": "/my-website/static/media/gmail.d765005ce9d4caa3d69e.png",
+    "static/media/mysql.svg": "/my-website/static/media/mysql.52bc18548c1c030c65115df215f92607.svg",
+    "static/media/react.svg": "/my-website/static/media/react.5af2dd30cdd52c613347ab2e335ddc87.svg",
+    "static/media/Visual_Studio.svg": "/my-website/static/media/Visual_Studio.e93fddb293f58ee00a826c5f32c270cc.svg",
+    "static/media/javascript.svg": "/my-website/static/media/javascript.d19259f8ab43f2d365b534ba983f1643.svg",
+    "static/media/github.svg": "/my-website/static/media/github.2fd953b7ae37712a5a737aff56f5bebf.svg",
+    "static/media/git.svg": "/my-website/static/media/git.77aaec0fd8644d615f5cf558b41e81c1.svg",
+    "static/media/VS_Code.svg": "/my-website/static/media/VS_Code.7a20ed5fd7ace36a73b184455f72e90d.svg",
+    "static/media/css.svg": "/my-website/static/media/css.1dc5dd39caa7ea3225f7a6e7cb5de012.svg",
+    "static/media/html.svg": "/my-website/static/media/html.bf52b8cfb9729229217d3c8a0aa60abe.svg",
+    "static/media/c.svg": "/my-website/static/media/c.4727493ae02e1818115a6e1e60a00188.svg",
+    "static/media/java.svg": "/my-website/static/media/java.242489edce5e506d94881135e9769b39.svg",
+    "index.html": "/my-website/index.html",
+    "main.1bb397c1.css.map": "/my-website/static/css/main.1bb397c1.css.map",
+    "main.b9962ffc.js.map": "/my-website/static/js/main.b9962ffc.js.map",
+    "787.1ed0c42c.chunk.js.map": "/my-website/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bb397c1.css",
+    "static/js/main.b9962ffc.js"
+  ]
+}
