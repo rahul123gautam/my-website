@@ -4,7 +4,9 @@ body{
   padding: 0;
   margin: 0;
 }
-
+/* *{
+  outline:1px solid rgb(40, 201, 0) ;
+} */
 /* ----------Nav-Bar------- */
 
 .nav{
@@ -243,4 +245,309 @@ body{
   width: 30px;
   margin-right: 20px;
   cursor: pointer;
+}
+
+
+/* --------------First Media query for max-width-900px--------------- */
+
+
+
+
+@media (max-width:900px) {
+  
+  /* ------content------ */
+  #writen-content >h1{
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .about-me, .contact-me, .projects{
+    font-size: 20px;
+    padding: 13px;
+  }
+  
+  /* -------------------Abouut----------------- */
+
+  #word-h1{
+    font-size: 24px;
+  }
+  .style-word{
+    font-size: 15px;
+  }
+  #about >ul{
+    line-height: 33px;
+    font-size: 15px;
+  }
+  
+  #about >h3{
+    font-size: 17px;
+  }
+  .tech-stack >img{
+    padding-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  /* -------------------------------------- */
+  
+  /* ----------Projects---------- */
+  .project{
+    margin-bottom: 40px;
+    width: 600px;
+    height: 380px;
+  }
+  .project h2{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .project p{
+    font-size: 14px;
+  }
+  .original-project{
+    width: 400px;
+    height: 250px;
+    margin-top: 10px;
+  }
+  .original-project >Img{
+    width: 400px;
+    height: 250px;
+  } 
+  
+}
+
+
+/* ---------------------Second Media Queury for 800px------------------- */
+
+@media (max-width:800px) {
+  
+  /* ------content------ */
+  #writen-content >h1{
+    font-size: 28px;
+    font-weight: 800;
+  }
+  .about-me, .contact-me, .projects{
+    font-size: 18px;
+    padding: 11px;
+  }
+  
+  /* -------------------Abouut----------------- */
+
+  #word-h1{
+    font-size: 22px;
+  }
+  .style-word{
+    font-size: 13px;
+  }
+  #about >ul{
+    line-height: 31px;
+    font-size: 13px;
+  }
+  
+  #about >h3{
+    font-size: 15px;
+  }
+  .tech-stack >img{
+    padding-right: 28px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+  }
+  
+  /* -------------------------------------- */
+  
+  /* ----------Projects---------- */
+  .project{
+    margin-bottom: 38px;
+    width: 580px;
+    height: 360px;
+  }
+  .project h2{
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .project p{
+    font-size: 12px;
+  }
+  .original-project{
+    width: 380px;
+    height: 230px;
+    margin-top: 10px;
+  }
+  .original-project >Img{
+    width: 380px;
+    height: 230px;
+  } 
+  
+}
+
+
+/* ---------------------Third Media Query for width 700px */
+
+@media (max-width:700px) {
+  
+  /* ------content------ */
+  #writen-content >h1{
+    font-size: 26px;
+    font-weight: 800;
+  }
+  .about-me, .contact-me, .projects{
+    font-size: 17px;
+    padding: 10px;
+  }
+  
+  /* -------------------Abouut----------------- */
+
+  #word-h1{
+    font-size: 20px;
+  }
+  .style-word{
+    font-size: 12px;
+  }
+  #about >ul{
+    line-height: 30px;
+    font-size: 12px;
+  }
+  
+  #about >h3{
+    font-size: 14px;
+  }
+  .tech-stack >img{
+    padding-right: 24px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+  
+  /* -------------------------------------- */
+  
+  /* ----------Projects---------- */
+  .project{
+    margin-bottom: 36px;
+    width: 560px;
+    height: 340px;
+  }
+  .project h2{
+    font-size: 19px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .original-project{
+    width: 370px;
+    height: 220px;
+    margin-top: 8px;
+  }
+  .original-project >Img{
+    width: 370px;
+    height: 220px;
+  } 
+  
+}
+
+/* -------------Fourth Media Query for width:600px---------------- */
+
+@media (max-width:600px) {
+  
+  /* ------content------ */
+  #writen-content >h1{
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .about-me, .contact-me, .projects{
+    font-size: 13px;
+    padding: 7px;
+  }
+  
+  /* -------------------Abouut----------------- */
+
+  #word-h1{
+    font-size: 18px;
+  }
+  #about >h3{
+    font-size: 13px;
+  }
+  .tech-stack >img{
+    padding-right: 20px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+  }
+  
+  /* -------------------------------------- */
+  
+  /* ----------Projects---------- */
+  .project{
+    margin-bottom: 34px;
+    width: 350px;
+    height: 250px;
+  }
+  .project h2{
+    font-size: 19px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .original-project{
+    width: 300px;
+    height: 220px;
+    margin-top: 8px;
+  }
+  .original-project >Img{
+    width: 300px;
+    height: 220px;
+  } 
+
+/* -----------------Contact------------------- */
+
+  .contact>h1{
+    font-size: 22px;
+  }
+  .input{
+    width: 250px;
+    padding: 8px;
+    padding-left: 30px;
+  }
+  .message{
+    padding-bottom: 60px;
+    margin-bottom: 30px;
+  }
+  .submit{
+    width: 100px;
+    padding: 7px;
+    margin-bottom: 40px;
+  }
+  .connect-size{
+    width: 20px;
+    margin-right: 12px;
+  }
+  
+  /* -------------------- For Navigation Bar, adding Hamburger Icon ----------------------------- */
+  .main-hamburger{
+    padding: 10px;
+    margin-right: 15px;
+   
+    cursor: pointer;
+  }
+  .hamburger{
+    width: 20px;
+    height: 3px;
+    background-color:white;
+    margin-top: 0px;
+    margin-bottom: 3px;
+
+  }
+  .myLinks{
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #333333;
+    color: #fff;
+    top: 3.9em;
+    padding: 10px 10px;
+    right: -12px;
+  }
+  .myLinks div{
+    padding: 25px 40px;
+  }
+  .main-hamburger:hover .myLinks {
+    display: block;
+  }
+  
 }
