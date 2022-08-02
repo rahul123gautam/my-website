@@ -174,17 +174,30 @@ body{
 .project:hover p, .project:hover .style-project-h2{
   color:#fff;
 }
-.original-project{
+.one{
   background-image:url("./my_work/Image/unsorted.png");
   background-size: cover;
   width: 450px;
   height: 250px;
   margin-top: 20px;
 }
-.original-project:hover{
+.one:hover{
   background-image:url("./my_work/Image/sorted.png");
   background-size: cover;
 }
+
+.two{
+  background-image:url("./my_work/Image/guess.png");
+  background-size: cover;
+  width: 450px;
+  height: 250px;
+  margin-top: 20px;
+}
+.two:hover{
+  background-image:url("./my_work/Image/guessed.png");
+  background-size: cover;
+} 
+
 .original-project >Img{
   width: 450px;
   height: 250px;
@@ -239,8 +252,6 @@ body{
   color: #333333;
   background-color:#ffeeee;
 }
-/* .connect{
-} */
 .connect-size{
   width: 30px;
   margin-right: 20px;
@@ -548,6 +559,9 @@ body{
   }
   .main-hamburger:hover .myLinks {
     display: block;
+  }
+  .nav{
+    margin-bottom: 50px;
   }
   
 }
