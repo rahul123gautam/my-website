@@ -122,6 +122,7 @@ body{
   margin-bottom: 0;
   font-weight: bold;
 }
+
 .tech-stack >img{
   padding-right: 50px;
   margin-bottom: 30px;
@@ -562,6 +563,13 @@ body{
   }
   #photo{
     margin-top: 50px;
+  }
+
+  .tech-stack{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
   }
   
 }
